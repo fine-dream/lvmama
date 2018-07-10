@@ -1,0 +1,1054 @@
+/*body {*/
+	/*height: 4000px;*/
+/*}*/
+
+/*erweima*/
+
+#yaojie {
+	position: fixed;
+	right:0;
+	top:48%;
+}
+
+/*馿悦亲子 */
+.beij {
+	height: 490px;
+	background: url(images/banner.jpg) no-repeat center top;
+	margin: 0 auto;
+	margin-bottom: 42px;
+}
+.beij .small {
+	height: 90px;
+}
+.beij .small .smalls {
+	height: 60px;
+	/*background: pink;*/
+	padding-top: 15px;
+}
+.beij .small .smalls .smallss {
+	height: 44px;
+	width: 914px;
+	/*background: pink;*/
+	padding-top: 8px;
+	position: relative;
+}
+.beij .small .smalls .smallss .int {
+	width: 790px;
+	height: 40px;
+	border: 2px solid #FF9900;
+	border-right: 0;
+	text-indent: 1em;
+	color: #BBBBBB;
+	font-size: 15px;
+	line-height: 40px;
+}
+.beij .small .smalls .smallss div {
+	display: block;
+	width: 274px;
+	height: 22px;
+	position: absolute;
+	top: 22px;
+	right: 122px;
+}
+.beij .small .smalls .smallss div span {
+	background: #F3F3F3;
+	padding: 2px 12px;
+	margin-left: 10px;
+	font-size: 12px;
+	border-radius: 11px;
+	color: #999999;
+	cursor: pointer;
+}
+.beij .small .smalls .smallss div span:hover {
+	background: #FF9900;
+	color :#fff;
+}
+.beij .small .smalls .smallss .span {
+	display: inline-block;
+	width: 122px;
+	height: 44px;
+	/*border: 2px solid #FF9900;*/
+	font-size: 18px;
+	color: #fff;
+	background: #FF9900;
+	cursor: pointer;
+}
+.beij .small .smalls .smallss .span:hover {
+	background: #f60;
+}
+
+/*宝贝玩乐票 */
+.baby {
+	height: 400px;
+	/*background: pink;*/
+	margin-bottom: 15px;
+}
+.touming {
+	opacity:0;
+}
+.baby .baby1 {
+	width: 285px;
+	height: 400px;
+	float: left;
+}
+.baby .baby1 .dl1:nth-child(1) {
+	/*width: 285px;*/
+	/*height: 85px;*/
+	background: #fff;
+	border-left: 4px solid #FC628F;
+	padding-top: 15px;
+}
+.baby .baby1 .dl1:nth-child(2) {
+	/*width: 285px;*/
+	/*height: 85px;*/
+	background: #fff;
+	border-left: 4px solid #ADE666;
+	padding-top: 15px;
+}
+.baby .baby1 .dl1:nth-child(3) {
+	/*width: 285px;*/
+	/*height: 85px;*/
+	background: #fff;
+	border-left: 4px solid #83E1F6;
+	padding-top: 15px;
+}
+.baby .baby1 .dl1:nth-child(4) {
+	/*width: 285px;*/
+	/*height: 85px;*/
+	background: #fff;
+	border-left: 4px solid #FFB734;
+	padding-top: 15px;
+}
+.baby .baby1 .dl1 dt {
+	margin-left: 20px;
+	font-size: 16px;
+	color: #333;
+	height: 22px;
+}
+.baby .baby1 .dl1 dd {
+	margin: 2px 10px 0;
+    padding-left: 10px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 0px;
+    border-bottom: 1px dotted #ccc;
+}
+.baby .baby1 .dl1 dd a {
+	display: inline-block;
+	padding-right: 12px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+.baby .baby1 .dl1 dd a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+.baby .baby1 .dl1 dd .hot {
+	color: #e38;
+}
+
+
+.baby .lunbotu {
+	width: 915px;
+	height: 325px;
+	float: right;
+	position: relative;
+}
+.baby .lunbotu .center li{
+	float: left;
+	display: none;
+	/*position: absolute;*/
+	/*top:0;*/
+	overflow: hidden;
+}
+.baby .lunbotu .bottom {
+	height: 12px;
+	/*background: #000;*/
+	overflow: hidden;
+	position: absolute;
+	bottom:10px;
+	left:390px;
+}
+.baby .lunbotu .bottom li {
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	border-radius: 12px;
+	float: left;
+	margin-left: 15px;
+}
+.baby .lunbotu .left {
+	display: none;
+	width: 40px;
+	height: 60px;
+	background-color: #000;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 120px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.baby .lunbotu .left i{
+	display: block;
+	width: 18px;
+	height: 39px;
+	position: absolute;
+	background: url(images/index.png) no-repeat -310px -101px;
+	margin-left: 10px;
+}
+.baby .lunbotu .right {
+	display: none;
+	width: 40px;
+	height: 60px;
+	background-color: #000;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 120px;
+	right: 0px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.baby .lunbotu .right i{
+	display: block;
+	width: 18px;
+	height: 39px;
+	position: absolute;
+	background: url(images/index.png) no-repeat -350px -101px;
+	margin-left: 10px;
+}
+
+	/*================================================*/
+
+.baby .jingxuan {
+	width: 915px;
+	height: 75px;
+	background: #fff;
+}
+.baby .jingxuan .ul {
+	line-height: 75px;
+}
+.baby .jingxuan .ul li{
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+}
+.baby .jingxuan .ul .i1 {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 41px;
+	background: url(images/index.png) no-repeat 0px 0px;
+	margin-left: 20px;
+	margin-top: 17px;
+	margin-right: 5px;
+}
+.baby .jingxuan .ul .i2 {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 41px;
+	background: url(images/index.png) no-repeat -50px 0px;
+	margin-left: 115px;
+	margin-top: 17px;
+	margin-right: 5px;
+}
+.baby .jingxuan .ul .i3 {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 41px;
+	background: url(images/index.png) no-repeat -100px 0px;
+	margin-left: 115px;
+	margin-top: 17px;
+	margin-right: 5px;
+}
+.baby .jingxuan .ul .i4 {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 41px;
+	background: url(images/index.png) no-repeat -150px 0px;
+	margin-left: 115px;
+	margin-top: 17px;
+	margin-right: 5px;
+}
+
+
+/*主题活动*/
+
+.theme {
+	height: 520px;
+	background: url(images/theme.jpg) no-repeat;
+}
+.theme .left {
+	width: 244px;
+	position: relative;
+}
+.theme .left .more {
+	padding-top: 152px;
+	padding-left: 20px;
+}
+.theme .left a {
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	width: 202px;
+	height: 31px;
+	line-height: 31px;
+	background: url(images/index.png) no-repeat 0px -300px;
+	padding-left: 30px;
+}
+.theme .left a:hover {
+	text-decoration: underline;
+}
+.theme .left img {
+	padding-top: 213px;
+	position: absolute;
+	left: -29px;
+}
+
+.theme .center {
+	width: 733px;
+	height: 520px;
+	/*background-color: pink;*/
+}
+.theme .center .one {
+	width: 473px;
+	height: 232px;
+	background: url(images/theme-pro.png) no-repeat right bottom #fff;	
+	border-radius: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	transition: all 1s
+}
+.theme .center .one img {
+	width: 473px;
+	height: 150px;	
+}
+.theme .center .more .a {
+	display: block;
+	padding: 0px 10px 0 10px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+}
+.theme .center  .a1{
+	display: block;
+    padding: 0 10px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.theme .center  .a1:hover{
+	color: #FF6600;
+	text-decoration: underline;
+
+}
+.theme .center .pro-des {
+    padding: 0px 10px 0 10px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+.theme .center i {
+	width: 1px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    margin: 0 10px;
+}
+.theme .center em {
+	font-size: 20px;
+    color: #f60;
+    padding-left: 10px;
+} 
+
+
+.theme .center .two {
+	width: 229px;
+	height: 232px;
+	background: #fff;	
+	border-radius: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-left: 14px;
+}
+.theme .center .two img {
+	width: 229px;
+	height: 150px;	
+}
+
+.theme .center .three {
+	width: 229px;
+	height: 232px;
+	background: #fff;	
+	border-radius: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.theme .center .three img {
+	width: 229px;
+	height: 150px;	
+}
+
+.theme .center .four {
+	width: 229px;
+	height: 232px;
+	background: #fff;	
+	border-radius: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-left: 14px;
+}
+.theme .center .four img {
+	width: 229px;
+	height: 150px;	
+}
+.theme .center .five {
+	width: 229px;
+	height: 232px;
+	background: #fff;	
+	border-radius: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-left: 14px;
+}
+.theme .center .five img {
+	width: 229px;
+	height: 150px;	
+}
+.theme .center div {
+	position: relative;
+	top: 0;
+	transition: all 1s;
+}
+.theme .center div:hover{
+	top: -8px;
+}
+
+
+.theme .right {
+	width: 165px;
+	height: 465px;
+	background-color: #fff9ec;
+	margin-top: 21px;
+	border-radius: 5px;
+	padding: 17px 25px 0 20px;
+}
+
+.theme .right .top {
+	width: 164px;
+	height: 33.6px;
+	/*background: pink;*/
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.theme .right .top p {
+	width: 82px;
+	height: 2px;
+	background: #f60;
+	position: absolute;
+	bottom: 0px;
+}
+.theme .right .top p i {
+	position: absolute;
+	bottom: 0px;
+	left: 35px;
+	display: block;
+	width: 11px;
+	height: 6px;
+	background: url(images/index.png) no-repeat -250px -30px;
+}
+
+.theme .right .top a {
+	text-align: center;
+	display: block;
+	float: left;
+	width: 82px;
+	height: 21.6px;
+	font-size: 16px;
+	color: #999;
+}
+.theme .right .top a:hover {
+	color: #f60;
+}
+.theme .right .top .one {
+	color: #f60;
+}
+
+
+.theme .right .ul1 {
+	display: block;
+	width: 175px;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 6px;
+}
+.theme .right li {
+	height: 40px;
+	line-height: 40px;
+}
+
+.theme .right li a {
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	color: #333;
+	padding-left: 8px;
+	padding-right: 12px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+.theme .right li a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.theme .right .ul2 {
+	display: none;
+	width: 175px;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 6px;
+}
+
+
+
+/*最新活动*/
+.zuinew {
+	padding-top: 66px;
+}
+.zuinew h4 {
+	height: 26px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+
+.mickey {
+	width: 1230px;
+	height: 250px;
+	/*background: pink;*/
+	padding-top: 13px;
+	padding-bottom: 40px;
+}
+.mickey a:nth-child(1) {
+	margin-right: 15px;
+}
+
+
+
+/*周末趣玩*/
+.weekday {
+	height: 618px;
+	overflow: hidden;
+	border-top: 2px solid #d7e9f5;
+	padding-top: 1px;
+	padding-bottom: 30px;
+}
+.weekday .left {
+	width: 289px;
+	height: 618px;
+	background: url(images/weekend.jpg);
+	position: relative;
+}
+.weekday .left img {
+	position: absolute;
+}
+.weekday .left img:nth-child(1) {
+	top: 208px;
+	left: -73px;
+}
+.weekday .left img:nth-child(2) {
+	top: 198px;
+	left: 6px;
+}
+.weekday .left img:nth-child(3) {
+	top: 226px;
+	left: 75px;
+}
+.weekday .left img:nth-child(4) {
+	top: 291px;
+	left: 99px;
+}
+.weekday .left img:nth-child(5) {
+	top: 357px;
+	left: 73px;
+}
+.weekday .left img:nth-child(6) {
+	top: 387px;
+	left: 7px;
+}
+
+
+.weekday .left ul {
+	position: absolute;
+	right: 0;
+	top: 103px;
+	height: 209px;
+	width: 1px;
+	background: #d7e9f5;
+}
+.weekday .left ul li {
+	float: left;
+	width: 9px;
+	height: 9px;
+	margin-bottom: 41px;
+	cursor: pointer;
+	position: relative;
+	left: -4px;
+	background: url(images/index.png) no-repeat -250px 0px;
+	
+}
+/*.weekday .left ul li:hover {*/
+  /*background : url(images/index.png) no-repeat -270px 0px;*/
+/*}*/
+.weekday .left ul .active {
+	 background-position: -290px 0px;
+ }
+.weekday .left ul .active em {
+	background-position: 0px -160px;
+	color: #fff;
+}
+
+.weekday .left ul li em {
+	display: block;
+	color: #666;
+	width: 131px;
+	height: 30px;
+	background: url(images/index.png) no-repeat 0px -80px;
+	position: absolute;
+	left: -152px;
+	top: -10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	overflow: hidden;
+}
+/*.weekday .left ul li em:hover {*/
+	/*background: url(images/index.png) no-repeat 0px -120px;*/
+/*}*/
+.weekday .left ul li:nth-child(1){
+	background: url(images/index.png) no-repeat -290px 0px;
+}
+.weekday .left ul li:nth-child(1) em{
+	color : #fff;
+	background: url(images/index.png) no-repeat 0px -160px;
+}
+/*.weekday .left ul li:hover {
+	background: url(images/index.png) no-repeat -270px 0px;
+}
+.weekday .left ul li em:hover {
+	background: url(images/index.png) no-repeat 0px -120px;
+}
+.weekday .left ul .active {
+	/*background: url(images/index.png) no-repeat 0px -160px;*/
+	/*background-position: -290px 0px;*/
+/*}
+.weekday .left ul .active em {
+	background-position: 0 -160px;
+	color: #fff;
+}*/
+
+
+.weekday .right1 {
+	width: 895px;
+	height: 614.6px;
+	display: none;
+	/*background: pink;*/
+}
+
+
+.weekday .title {
+	width: 895px;
+	height: 18px;
+	/*background: green;*/
+	padding-top: 12px;
+	padding-bottom: 7px;
+}
+.weekday .title a {
+	color: #999;
+}
+.weekday .title a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.weekday .title a i {
+	width: 5px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 10px;
+	background: url(images/index.png) no-repeat -270px -30px;
+}
+.weekday .title h4 {
+	float: left;
+	font-size: 18px;
+	color: #31a7d3;
+}
+.weekday .bottom {
+	width: 912px;
+	height: 574px;
+	/*background: pink;*/
+}
+.weekday .bottom div {
+	width: 289px;
+	height: 282px;
+	background: #fff;
+	position: relative;
+	top: 0;
+	transition: all 1s;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.weekday .bottom div:hover {
+	top: -5px;
+}
+.weekday .bottom .zi {
+	margin-top: 12px;
+	width: 269px;
+    line-height: 20px;
+    height: 40px;
+    white-space: normal;
+    font-size: 14px;
+   	display: block;
+   	overflow: hidden;
+   	padding: 0 10px;
+   	color: #333;
+}
+.weekday .bottom .zi:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.weekday .bottom .p1 {
+	float: left;
+    width: 190px;
+    padding-right: 0;
+    margin-top: 12px;
+    padding: 0 10px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+
+.weekday .p1>i {
+	width: 1px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    margin: 0 10px;
+}
+    
+.weekday .p2 {
+    width: 70px;
+    padding: 0 3px 0 0;
+    margin-top: 9px;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+.weekday .p2 em {
+	font-size: 20px;
+	color: #f60;
+}
+
+
+
+/*=================================欢乐度假*/
+
+.holiday {
+	height: 618px;
+	overflow: hidden;
+	border-top: 2px solid #d7e9f5;
+	padding-top: 1px;
+	padding-bottom: 40px;
+	
+}
+.holiday .left ul .target {
+	background-position: -290px -15px;
+}
+.holiday .left ul .target em {
+	background-position: -150px -160px;
+	color: #fff;
+}
+
+.holiday .left {
+	width: 289px;
+	height: 618px;
+	background: url(images/vacation.jpg);
+	position: relative;
+}
+.holiday .left ul {
+	position: absolute;
+	right: 0;
+	top: 103px;
+	height: 209px;
+	width: 1px;
+	background: #d7e9f5;
+}
+.holiday .left ul li {
+	float: left;
+	width: 9px;
+	height: 9px;
+	margin-bottom: 41px;
+	cursor: pointer;
+	position: relative;
+	left: -4px;
+	background: url(images/index.png) no-repeat -250px 0px;
+	
+}
+.holiday .left ul li em {
+	display: block;
+	width: 131px;
+	height: 30px;
+	background: url(images/index.png) no-repeat 0px -80px;
+	position: absolute;
+	left: -152px;
+	top: -10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	overflow: hidden;
+}
+/*.weekday .left ul li:hover {
+	background: url(images/index.png) no-repeat -270px 0px;
+}
+.weekday .left ul li em:hover {
+	background: url(images/index.png) no-repeat 0px -120px;
+}
+.weekday .left ul .active {
+	/*background: url(images/index.png) no-repeat 0px -160px;*/
+	/*background-position: -290px 0px;*/
+/*}
+.weekday .left ul .active em {
+	background-position: 0 -160px;
+	color: #fff;
+}*/
+
+
+.holiday .right1 {
+	width: 895px;
+	height: 614.6px;
+	display: block;
+	/*background: pink;*/
+}
+.holiday .right2 {
+	width: 895px;
+	height: 614.6px;
+	display: none;
+	/*background: pink;*/
+}
+.holiday .right3 {
+	width: 895px;
+	height: 614.6px;
+	display: none;
+	/*background: pink;*/
+}
+.holiday .right4 {
+	width: 895px;
+	height: 614.6px;
+	display: none;
+	/*background: pink;*/
+}
+
+.holiday .title {
+	width: 895px;
+	height: 18px;
+	/*background: green;*/
+	padding-top: 12px;
+	padding-bottom: 7px;
+}
+.holiday .title a {
+	color: #999;
+}
+.holiday .title a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.holiday .title a i {
+	width: 5px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 10px;
+	background: url(images/index.png) no-repeat -270px -30px;
+}
+.holiday .title h4 {
+	float: left;
+	font-size: 18px;
+	color: #31a7d3;
+}
+.holiday .bottom {
+	width: 912px;
+	height: 574px;
+	/*background: pink;*/
+}
+.holiday .bottom div {
+	width: 289px;
+	height: 282px;
+	background: #fff;
+	position: relative;
+	top: 0;
+	transition: all 1s;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.holiday .bottom div:hover {
+	top: -5px;
+}
+.holiday .bottom .zi {
+	margin-top: 12px;
+	width: 269px;
+    line-height: 20px;
+    height: 40px;
+    white-space: normal;
+    font-size: 14px;
+   	display: block;
+   	overflow: hidden;
+   	padding: 0 10px;
+   	color: #333;
+}
+.holiday .bottom .zi:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.holiday .bottom .p1 {
+	float: left;
+    width: 190px;
+    padding-right: 0;
+    margin-top: 12px;
+    padding: 0 10px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+
+.holiday .p1>i {
+	width: 1px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    margin: 0 10px;
+}
+    
+.holiday .p2 {
+    width: 75px;
+    padding: 0 3px 0 0;
+    margin-top: 9px;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+.holiday .p2 em {
+	font-size: 20px;
+	color: #f60;
+}
+
+
+
+
+
+
+
+
+
+
+/*===============热门目的地=============*/
+
+
+.hotplace {
+	height: 401px;
+	overflow: hidden;
+	position: relative;
+}
+.hotplace h4 {
+	font-size: 26px;
+	height: 26px;
+	line-height: 26px;
+}
+.hotplace .qiandao {
+	height: 360px;
+	/*background: pink;*/
+	margin-top: 10px;
+	position: relative;
+}
+.hotplace .qiandao ul {
+	width: 1500px;
+	
+}
+.hotplace .qiandao li {
+	padding-right: 1px;
+	float: left;
+	position: relative;
+}
+.hotplace .qiandao p{
+	display: block;
+	width: 239px;
+	height: 72.6px;
+	line-height: 30px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+
+.hotplace .qiandao p span {
+	display: block;
+	width: 160px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 24px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.hotplace .left {
+	width: 40px;
+	height: 40px;
+	display: none;
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	cursor: pointer;
+	background: url(images/index.png) no-repeat -310px 0px;
+}
+.hotplace .right {
+	width: 40px;
+	height: 40px;
+	display: none;
+	position: absolute;
+	top: 200px;
+	cursor: pointer;
+	right: 10px;
+	background: url(images/index.png) no-repeat -360px 0px;
+}
